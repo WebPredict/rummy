@@ -34,6 +34,7 @@ interface UseRummyGameReturn {
   addCardToMeld: (card: Card, meldId: string) => boolean;
   replaceJokerInMeld: (card: Card, meldId: string) => boolean;
   closeMeld: (meldId: string) => void;
+  openMeld: (meldId: string) => void;
   discard: (card: Card) => boolean;
   startNewRound: () => void;
   restartGame: () => void;
